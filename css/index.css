@@ -1,0 +1,332 @@
+*{
+order: 1px solid red
+}
+
+/* aqui empieza la imagen principal */
+
+.contenedor{
+    height: 400px;
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../imagenes/carousel-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* aqui empieza contenido */
+
+.comidas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0;
+    margin: 45px 0 0;
+    background: rgba(0, 0, 0, .04);
+}
+
+.comidas img {
+    width: 60px;  
+}
+
+.articulos h2{
+    font-weight: 900;
+    -webkit-text-stroke: .2 rgba(7, 5, 3, 0.39);
+}
+
+.articulos {
+    width: 260px;
+    padding: 50px 30px 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .10);
+}
+
+.articulos :nth-child(3){
+    margin-bottom: 20px;    
+}
+
+/* aqui empiezan las novedades */
+
+.TituloNovedades{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#catalogo {
+    margin: 0 7.5%;
+    height: 70vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.flecha {
+    position: absolute;
+    top: 225%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+    margin: 0 9%;
+}
+
+#flechaIzquierda {
+    left: 10px;
+}
+
+#flechaDerecha {
+    right: 10px;
+}
+
+/* aqui empieza los contactos */
+
+.TituloContacto h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #4b4a4a;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.consultas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    padding: 60px 0;
+    margin: 15px 0px;
+    background: rgba(0, 0, 0, .04);    
+}
+
+.contacto img {
+    width: 30%;
+    height: 70px;
+    align-self: center;
+}
+
+.contacto2 {
+    display: flex;
+    width: 22%;
+    font-family: 'Nunito', sans-serif;
+    gap: 5px;
+    text-align: center;
+}
+
+.direccion {
+    margin: auto;
+}
+
+.direccion h3 {
+    color: #719a0a;
+}
+
+.IconosRedes img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+.ubicacion {
+    display: flex;
+    gap: 80px;
+    padding: 3% 0;
+    margin: 0px 100px;
+}
+
+.mapa {
+    width: 80%;    
+}
+
+.mapa iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    font-size: 14px;    
+} 
+
+.form input {
+    margin-bottom: 15px;
+    height: 45px;
+    font-size: 14px;
+    width: 100%;
+    color: #524f4f;
+    border-radius: 5px !important;
+    border: 1px solid #c9c7c7;
+    background: transparent;
+}
+
+.form textarea {
+    width: 100%;
+    border-radius: 5px !important;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:rgb(29, 114, 47);
+    background: #fbaf32;
+    border: 2px solid #fbaf32;
+    border-radius: 5px;    
+}
+
+@media (max-width:1000px){
+
+.flecha {
+    position: absolute;
+    top: 230%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+    margin: 0 15px;
+}
+
+#flechaIzquierda {
+    left: 10px;
+}
+
+#flechaDerecha {
+    right: 10px;
+}
+}
+
+/* aqui empieza la media a 700px */
+
+@media (max-width:700px){    
+    .contenedor{
+        height: 120PX;
+        position: relative;
+        margin-bottom: 45px;
+        padding: 150px 0 90px 0;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../imagenes/carousel-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1{        
+        font-size: 40px;
+    }
+    
+    .titulo h1{
+        font-size: 200%;
+    }
+    
+    .titulo p{
+        font-size: 100%;
+    }
+    
+    /* aqui empieza contenido */
+
+    .comidas{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;   
+    }
+    
+    .flecha {
+        position: absolute;
+        top: 1770px;
+        transform: translateY(-50%);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 6px;
+        margin: 0 15%;
+    }
+    
+    #flechaIzquierda {
+        left: -85px;
+    }
+    
+    #flechaDerecha {
+        right: -85px;
+    }
+        
+    /* aqui empieza contactos */
+
+    .TituloContacto h2{
+        font-size: 200%;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;       
+        text-align: center;
+        padding: 10px;
+        & img{
+            width: 20%;
+            align-self: center;
+        }
+    }
+
+    .contacto2{
+        margin: 3%;
+        width: 60%;
+        align-self: center;
+    }
+
+    .direccion img{
+            width: 15%;
+    }   
+
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        align-items: center;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .mapa{
+        width: 70%;
+        height: 300px;  
+    }
+
+    .form{
+        width: 70%;
+        text-align: center;
+        margin-bottom: 10px;
+        & input{
+            width: 99%;
+        }
+        & textarea{
+            width: 99%;
+        }
+    }
+}

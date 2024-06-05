@@ -1,0 +1,290 @@
+* {
+    order: 1px solid blue;
+    margin: 0;
+    color: #757575;
+}
+
+/* aqui empieza declaraciones */
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #fbaf32;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2,
+h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #fbaf32;
+}
+
+/* aqui empieza la barra de navegacion */
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #bdcec2a2;
+}
+
+.BentaSergio {
+    color: #fbaf32;
+    font-size: 45px;
+    padding: 15px 60px;
+}
+
+span {
+    color: rgb(29, 114, 47);
+    font-family: 'Nunito', sans-serif
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 60px;
+    gap: 30px;
+    align-items: center;
+    & .active {
+        color: rgb(29, 114, 47);
+        font-weight: 900;
+    }
+}
+
+.navegacion a {
+    padding: 10px 10px 8px 10px;
+    font-size: 18px;
+    color: #080303;
+
+}
+
+a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* aqui empiezan las imagenes principales */
+
+.contenedor {
+    height: 120PX;
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../imagenes/carousel-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 20%;
+}
+
+.titulo h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.titulo p {
+    color: #ffffff !important;
+    margin: 2% 30% 4%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.titulo span {
+    color: #fbaf32;
+    font-family: 'Nunito', sans-serif;
+}
+
+.BotonRestaurante {
+    padding: 12px 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(29, 114, 47);
+    background: #fbaf32;
+    border: 2px solid #fbaf32;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.BotonRestaurante:hover {
+    background-color: transparent;
+    color: #fbaf32;
+}
+
+.articulos a {
+    color: rgb(29, 114, 47);
+    font-size: 110%;
+    font-weight: 800;
+}
+
+.articulos h2 {
+    font-weight: 900;
+    -webkit-text-stroke: .2 rgba(7, 5, 3, 0.39);
+}
+
+/* aqui empieza el footer */
+
+footer {
+    background: rgba(0, 0, 0, .04);
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.LinkPie {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    margin: 20px 20px 0px 100px;
+}
+
+.LinkPie img {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.LinkPie a img {
+    margin: 0;
+    width: 60px;
+    height: auto;
+}
+
+.LinkPie p {
+    font-size: 14px;
+}
+
+.contacto3 {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    gap: 5px;
+}
+
+.IconosRedes {
+    text-align: center;
+    & a img {
+        width: 20%;
+    }
+}
+
+.NewsLetter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    gap: 30px;
+}
+
+.NewsLetter a {
+    color: rgb(29, 114, 47);
+    border-radius: 10px;
+    width: 15%;
+    align-self: center;
+    font-size: 100%;
+}
+
+.NewsLetter a:hover {
+    background-color: #fbaf32;
+}
+
+#toggle,
+.button {
+    display: none;
+}
+
+/* aqui empieza la media a 1000px */
+
+@media (max-width:1000px) {
+
+    .BentaSergio {
+        color: #fbaf32;
+        font-size: 30px;
+        padding: 15px 25px;
+    }
+}
+
+/* aqui empieza la media a 700px */
+
+@media (max-width:700px) {
+    .BentaSergio {
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navegacion {
+        display: none;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 17px 55px;
+        color: #0e0d0d;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    #toggle:checked~.navegacion {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 67px;
+        right: 0px;
+        background-color: #bdcec2a2;
+        padding: 18px;
+    }
+
+    .barra {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navegacion {
+        margin: 0;
+    }
+
+    footer {
+        align-items: center;
+        margin: 0;
+        & .LinkPie {
+            margin: 5%;
+        }
+        & .NewsLetter {
+            margin: 5%;
+        }
+    }
+
+    .NewsLetter a {
+        width: 35%;
+    }
+
+    .IconosRedes {
+        text-align: center;
+        & a img {
+            width: 20%;
+        }
+    }
+}

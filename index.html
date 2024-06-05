@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benta Sergio | Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700,900" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/cabecera-footer.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <!-- Empieza la barra de navegacion -->
+  <div class="barra">
+    <a href="index.html" class="BentaSergio">Benta <span>Sergio</span></a>
+    <input type="checkbox" id="toggle" />
+    <label for="toggle" class="button">☰</label>
+    <div class="navegacion">
+      <a class="active" href="index.html">Home</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="menu.html">Menu</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+  </div>
+  <!-- Termina la barra de navegacion -->
+  <!-- empieza imagen principal -->
+  <div class="contenedor" id="home">
+    <div class="titulo">
+      <h1>Ingredientes de <span>Calidad</span></h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+        itaque, temporibus enim iure dolores perferendis nulla adipisci atque
+        porro praesentium accusantium assumenda.
+      </p>
+      <div class="Botonesinicio">
+        <a class="BotonRestaurante" href="menu.html">Ver Menu</a>
+        <a class="BotonRestaurante" href="menu.html">La Carta</a>
+      </div>
+    </div>
+  </div>
+  <!-- termina imagen principal -->
+  <!-- empieza contenido -->
+
+  <div class="comidas"></div>
+  <!-- aqui empiezan las novedades -->
+  <div class="TituloNovedades">
+    <h1>Novedades / Nouvelles</h1>
+  </div>
+
+  <div id="catalogo">
+    <button id="flechaIzquierda" class="flecha">&#10094;</button>
+    <button id="flechaDerecha" class="flecha">&#10095;</button>
+  </div>
+
+  <!-- Empieza Contactos -->
+  <div class="consultas">
+    <div class="TituloContacto">
+      <h2>Contactos para consulta</h2>
+    </div>
+    <div class="contacto">
+      <div class="contacto2">
+        <img src="./imagenes/iconos/Ubicacion.png" alt="" />
+        <div class="direccion">
+          <h3>Dirección</h3>
+          <p>
+            Endarlaza Hiribidea 22,<br />
+            Irun, Guipuzcoa
+          </p>
+        </div>
+      </div>
+      <div class="contacto2">
+        <img src="./imagenes/iconos/telefono1.png" alt="" />
+        <div class="direccion">
+          <h3>Telefono</h3>
+          <p>+34 943 63 54 32</p>
+        </div>
+      </div>
+      <div class="contacto2">
+        <img src="./imagenes/iconos/mensaje.png" alt="" />
+        <div class="direccion">
+          <h3>Email</h3>
+          <p>sergio@BentaSergio.com</p>
+        </div>
+      </div>
+      <div class="contacto2">
+        <img src="./imagenes/iconos/flechacurva.png" alt="" />
+        <div class="direccion">
+          <h3>Siguenos</h3>
+          <div class="IconosRedes">
+            <a href=""><img src="./imagenes/iconos/Instagram.png" alt="" /></a>
+            <a href=""><img src="./imagenes/iconos/facebook.png" alt="" /></a>
+            <a href=""><img src="./imagenes/iconos/twiter.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ubicacion">
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7103.681520463311!2d-1.7688078502494191!3d43.341387435822234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5108cf02aac10d%3A0xebe1b80768f7847b!2sEndarlaza%20Hiribidea%2C%2022%2C%2020305%20Irun%2C%20Gipuzkoa!5e0!3m2!1ses!2ses!4v1710837427419!5m2!1ses!2ses"
+        width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <form class="form" name="formulario" method="post" action="/send/">
+      <input type="text" name="Nombre" placeholder="Nombre Completo" required />
+      <br />
+      <input type="email" name="email" placeholder="Email" required />
+      <br />
+      <input type="number" name="telefono" placeholder="Telefono" required />
+      <br />
+      <input type="text" name="asunto" placeholder="Asunto" required />
+      <br />
+      <textarea name="Descripcion" id="" cols="60" rows="5" placeholder="Mensaje"></textarea>
+      <button class="Submit" type="submit" id="sendMessageButton">
+        Enviar Mensaje
+      </button>
+    </form>
+  </div>
+  <!-- aqui empieza el footer -->
+  <footer>
+    <div class="LinkPie">
+      <div class="contacto3">
+        <img src="./imagenes/iconos/Ubicacion.png" alt="" />
+        <p>
+          Endarlaza Hiribidea 22,<br />
+          Irun, Guipuzcoa
+        </p>
+      </div>
+      <div class="contacto3">
+        <img src="./imagenes/iconos/telefono1.png" alt="" />
+        <p>+34 943 63 54 32</p>
+      </div>
+      <div class="contacto3">
+        <img src="./imagenes/iconos/mensaje.png" alt="" />
+        <p>sergio@BentaSergio.com</p>
+      </div>
+      <div class="IconosRedes">
+        <a href=""><img src="./imagenes/iconos/Instagram.png" alt="" /></a>
+        <a href=""><img src="./imagenes/iconos/facebook.png" alt="" /></a>
+        <a href=""><img src="./imagenes/iconos/twiter.png" alt="" /></a>
+      </div>
+    </div>
+    <div class="NewsLetter">
+      <h2>Novedades</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+        voluptate velit, possimus quas dignissimos accusantium explicabo error
+        provident tempore consequuntur laborum fugit voluptatibus blanditiis
+        nemo unde eaque ipsum labore est?
+      </p>
+      <!-- ancla al home -->
+      <a href="#home">Ir al inicio</a>
+    </div>
+  </footer>
+  <script src="./js/comidas.js"></script>
+<script src="./js/slide.js"></script>
+</body>
+</html>

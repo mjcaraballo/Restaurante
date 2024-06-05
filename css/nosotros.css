@@ -1,0 +1,129 @@
+/* aqui empieza contenido */
+*{
+    order: 1px solid red;
+}
+
+.comidas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0;
+    margin: 45px 0;
+    background: rgba(0, 0, 0, .04);
+}
+
+.comidas img {
+    width: 60px;
+    margin-bottom: px;
+}
+
+.articulos {
+    width: 260px;
+    padding: 50px 30px 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .10);
+}
+.articulos :nth-child(3){
+    margin-bottom: 20px;    
+}
+
+/* aqui empieza el video y acerca de nosotros */
+
+.tabla{   
+    display: flex;
+    justify-content: space-around;
+}
+
+table{    
+    border-spacing: 100px 0px;        
+}
+
+td {
+    width: 50%;  
+    text-align: center;
+}
+
+iframe{
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    align-self: center;
+}
+
+.acerca{
+    height: 280px;
+    width: 100%;  
+    display: block;
+    overflow: scroll;
+    padding: 15px;
+    text-align: justify;
+    justify-content: center;
+    border-radius: 10px ;
+    border: 1px solid gray;
+    line-height: 1.5;
+    & span{
+        font-weight: 700;
+        font-size: 30px;
+        color: #fbaf32;        
+        }
+}
+
+/* aqui empieza la media a 700px */
+
+@media (max-width:700px){
+    /* aqui empieza el contenido */
+    .comidas{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;   
+    }
+
+/* aqui empieza el video y acerca de nosotros */
+
+    table{
+        margin-bottom: 5%;
+        align-items: center;
+    }
+
+    tr{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        
+    }
+
+    td {
+        position: relative;
+    overflow: hidden;
+    padding-top: 76.25%;
+    padding-left: 50%;
+    }
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        
+    }
+    
+    .acerca{
+        width: 95%;
+        text-align: center;
+        & p{
+            text-align: justify;
+            margin-top: 3%;
+        }
+    }
+
+    *{
+        order: 1px solid red;
+    }
+    }

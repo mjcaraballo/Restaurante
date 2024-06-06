@@ -57,16 +57,16 @@
 
   {
     "id":"9",
-    "imagen": "./imagenes/imagenesmenu/imgburger.jpg",
+    "imagen": "./imagenes/imagenesmenu/imgBurger.jpg",
     "titulo": "Hamburguesas",
-    "enlaceMenu": "./imagenes/imagenesmenu/hamburguesas.jpg"
+    "enlaceMenu": "./imagenes/imagenesmenu/Hamburguesas.jpg"
   },
 
   {
     "id":"10",
-    "imagen": "./imagenes/imagenesmenu/imgplatocombinado.jpg",
+    "imagen": "./imagenes/imagenesmenu/imgPlatoCombinado.jpg",
     "titulo": "Platos Combinados",
-    "enlaceMenu": "./imagenes/imagenesmenu/platoscombinados.jpg"
+    "enlaceMenu": "./imagenes/imagenesmenu/platosCombinados.jpg"
   },
 
   {

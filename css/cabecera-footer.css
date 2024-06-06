@@ -288,3 +288,18 @@ footer {
         }
     }
 }
+
+@media (max-width:400px){
+    footer {
+        align-items: center;
+        margin: 0;
+        flex-direction: column;
+        & .LinkPie {
+            margin: 5%;
+            align-items: center;
+        }
+        & .NewsLetter {
+            margin: 5%;
+        }
+    } 
+}

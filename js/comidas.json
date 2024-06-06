@@ -1,0 +1,25 @@
+[
+    {
+      "imagen": "./imagenes/iconos/iconolacarta.png",
+      "titulo": "La Carta",
+      "descripción":
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quam, deleniti quos rem,  ab cumq, earum reprehenderit placeat.",
+      "enlaceMenu": "./imagenes/imagenesmenu/carta2.jpg"
+    },
+  
+    {
+      "imagen": "./imagenes/iconos/menu.png",
+      "titulo": "Menu",
+      "descripción":
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quam, deleniti quos rem,  ab cumq, earum reprehenderit placeat.",
+      "enlaceMenu": "./imagenes/imagenesmenu/Menu.jpg"
+    },
+  
+    {
+      "imagen": "./imagenes/iconos/iconcocteles.png",
+      "titulo": "Cocteles",
+      "descripción":
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quam, deleniti quos rem,  ab cumq, earum reprehenderit placeat.",
+      "enlaceMenu": "./imagenes/imagenesmenu/Cartavinos.jpg"
+    }
+  ]

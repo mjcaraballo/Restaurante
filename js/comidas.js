@@ -12,7 +12,7 @@ const lista = [
     titulo: "Menu",
     descripción:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quam, deleniti quos rem,  ab cumq, earum reprehenderit placeat.",
-    enlaceMenu: "./imagenes/imagenesmenu/menu.jpg",
+    enlaceMenu: "./imagenes/imagenesmenu/Menu.jpg",
   },
 
   {
@@ -20,7 +20,7 @@ const lista = [
     titulo: "Cocteles",
     descripción:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quam, deleniti quos rem,  ab cumq, earum reprehenderit placeat.",
-    enlaceMenu: "./imagenes/imagenesmenu/cartavinos.jpg",
+    enlaceMenu: "./imagenes/imagenesmenu/Cartavinos.jpg",
   },
 ];
 

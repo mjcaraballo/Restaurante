@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "imagen": "./imagenes/iconos/iconolacarta.png",
       "titulo": "La Carta",
       "descripción":
@@ -8,6 +9,7 @@
     },
   
     {
+      "id": 2,
       "imagen": "./imagenes/iconos/menu.png",
       "titulo": "Menu",
       "descripción":
@@ -16,6 +18,7 @@
     },
   
     {
+      "id": 3,
       "imagen": "./imagenes/iconos/iconcocteles.png",
       "titulo": "Cocteles",
       "descripción":

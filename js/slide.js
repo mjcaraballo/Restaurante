@@ -1,4 +1,4 @@
-const fondo = document.getElementById('catalogo');
+const fondo = document.getElementById('deslizar');
 const flechaIzquierda = document.getElementById('flechaIzquierda');
 const flechaDerecha = document.getElementById('flechaDerecha');
 const fotos = [   './imagenes/imagenesmenu/pintxoPote.jpg', 

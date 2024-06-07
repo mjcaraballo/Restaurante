@@ -36,23 +36,17 @@ order: 1px solid red
 }
 
 .flecha {
-    position: absolute;
-    top: 225%;
-    transform: translateY(-50%);
     border: none;
     outline: none;
     cursor: pointer;
     font-size: 20px;
     padding: 8px;
-    margin: 0 9%;
+    margin-top: 200px;
+    overflow: auto;
 }
 
-#flechaIzquierda {
-    left: 10px;
-}
-
-#flechaDerecha {
-    right: 10px;
+#flechaDerecha {    
+    float: right;
 }
 
 /* aqui empieza los contactos */
@@ -161,28 +155,6 @@ button {
     border-radius: 5px;    
 }
 
-@media (max-width:1000px){
-
-.flecha {
-    position: absolute;
-    top: 230%;
-    transform: translateY(-50%);
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 8px;
-    margin: 0 15px;
-}
-
-#flechaIzquierda {
-    left: 10px;
-}
-
-#flechaDerecha {
-    right: 10px;
-}
-}
 
 /* aqui empieza la media a 700px */
 
@@ -219,26 +191,6 @@ button {
         flex-direction: column;
         align-items: center;
         gap: 30px;   
-    }
-    
-    .flecha {
-        position: absolute;
-        top: 1770px;
-        transform: translateY(-50%);
-        border: none;
-        outline: none;
-        cursor: pointer;
-        font-size: 20px;
-        padding: 6px;
-        margin: 0 15%;
-    }
-    
-    #flechaIzquierda {
-        left: -85px;
-    }
-    
-    #flechaDerecha {
-        right: -85px;
     }
         
     /* aqui empieza contactos */

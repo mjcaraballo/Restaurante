@@ -142,6 +142,7 @@ a {
 .comidas img {
     width: 60px;
     cursor: pointer;
+    margin-bottom: 3%;
 }
 
 .articulos {
@@ -159,9 +160,28 @@ a {
     margin-bottom: 20px;
 }
 
+
+
+.articulos a {
+    color: rgb(29, 114, 47);
+    font-size: 110%;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.articulos a:hover{
+    background-color: #fbaf32;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.articulos h2 {
+    font-weight: 900;
+    -webkit-text-stroke: .2 rgba(7, 5, 3, 0.39);
+    margin-bottom: 2%;
+}
+
 /* aqui empieza la modal */
-
-
 
 .modal {
     display: none;
@@ -210,25 +230,6 @@ a {
 }
 
 /* aqui terminal modal */
-
-.articulos a {
-    color: rgb(29, 114, 47);
-    font-size: 110%;
-    font-weight: 800;
-    cursor: pointer;
-}
-
-.articulos a:hover{
-    background-color: #fbaf32;
-    border-radius: 5px;
-    padding: 2%;
-}
-
-.articulos h2 {
-    font-weight: 900;
-    -webkit-text-stroke: .2 rgba(7, 5, 3, 0.39);
-}
-
 /* aqui empieza el footer */
 
 footer {

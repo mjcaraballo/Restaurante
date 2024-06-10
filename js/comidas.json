@@ -13,7 +13,7 @@
       "imagen": "./imagenes/iconos/menu.png",
       "titulo": "Menu",
       "descripción":
-        "Nuestro menú de <span>14.99€</span> incluye entrante, plato principal, postre y bebida, ofreciendo una experiencia deliciosa y asequible para todos.",
+        "Nuestro menú de <span>14.90€</span> incluye entrante, segundo, postre y bebida, ofreciendo una experiencia deliciosa y asequible para todos.",
       "enlaceMenu": "./imagenes/imagenesmenu/Menu.jpg"
     },
   
@@ -23,6 +23,6 @@
       "titulo": "Cocteles",
       "descripción":
         "La carta de vinos y cócteles del restaurante ofrece una selección exquisita, ideal para maridar platos y disfrutar de bebidas únicas.",
-      "enlaceMenu": "./imagenes/imagenesmenu/Cartavinos.jpg"
+      "enlaceMenu": "./imagenes/imagenesmenu/cartaVinos.jpg"
     }
   ]

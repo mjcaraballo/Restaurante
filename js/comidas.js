@@ -22,7 +22,7 @@ function leerComidas(lista) {
 function showDetail(productId) {
   
   const product = lista.find((element) => element.id == productId);
-  console.log(product.enlaceMenu);
+  //console.log(product.enlaceMenu);
   if (product) {
     const imagen = document.getElementById("detailImage");
     imagen.src = product.enlaceMenu;

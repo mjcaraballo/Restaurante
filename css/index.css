@@ -173,7 +173,7 @@ button {
         justify-content: center;
     }
 
-    h1{        
+    .titulo h1{        
         font-size: 40px;
     }
     
@@ -205,8 +205,10 @@ button {
         justify-content: center;       
         text-align: center;
         padding: 10px;
+        width: 85%;
         & img{
             width: 20%;
+            height: auto;
             align-self: center;
         }
     }
@@ -226,19 +228,19 @@ button {
         flex-direction: column;
         width: 100%;
         height: auto;
-        margin: 0;
+        margin: 5% 0;
         align-items: center;
         padding: 0;
         gap: 30px;
     }
 
     .mapa{
-        width: 70%;
+        width: 85%;
         height: 300px;  
     }
 
     .form{
-        width: 70%;
+        width: 85%;
         text-align: center;
         margin-bottom: 10px;
         & input{
@@ -248,4 +250,23 @@ button {
             width: 99%;
         }
     }
+}
+
+@media (max-width:460px){
+    .TituloNovedades{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .mapa{
+        width: 90%;
+    }
+
+    .form{
+        width: 90%;
+    }
+
 }

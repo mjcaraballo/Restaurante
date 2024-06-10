@@ -177,3 +177,22 @@ button {
         order: 1px solid blue;
     }
 }
+
+@media (max-width:460px){
+    .TituloNovedades{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .mapa{
+        width: 90%;
+    }
+
+    .form{
+        width: 90%;
+    }
+
+}

@@ -380,11 +380,12 @@ footer {
     }
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
     footer {
         align-items: center;
         margin: 0;
         flex-direction: column;
+        gap: 0px;
         & .LinkPie {
             margin: 5%;
             align-items: center;
@@ -393,4 +394,8 @@ footer {
             margin: 5%;
         }
     } 
+
+    .contacto3:nth-child(2){
+        margin-right: 40px;
+    }
 }

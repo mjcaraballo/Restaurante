@@ -56,6 +56,12 @@
     }
 }
 
+@media (max-width:1000px){
+    .carta{
+        width: 20%;
+    }
+}
+
 /* aqui empieza la media a 700px */
 
 @media (max-width:700px) {

@@ -127,16 +127,17 @@ button {
         justify-content: center;
         text-align: center;
         padding: 10px;
-        width: 75%;
+        width: 85%;
         & img {
             width: 20%;
+            height: auto;
             align-self: center;
         }
     }
 
     .contacto2 {
         margin: 3%;
-        width: 50%;
+        width: 66%;
         align-self: center;
     }
 
@@ -178,7 +179,7 @@ button {
     }
 }
 
-@media (max-width:460px){
+@media (max-width:500px){
     .TituloNovedades{
         font-size: 20px;
         text-align: center;

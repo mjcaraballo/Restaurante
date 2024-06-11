@@ -332,7 +332,7 @@ footer {
 
     .button {
         display: inline-block;
-        padding: 17px 55px;
+        padding: 17px 30px;
         color: #0e0d0d;
         font-size: 25px;
         cursor: pointer;
@@ -380,22 +380,43 @@ footer {
     }
 }
 
-@media (max-width:450px){
+@media (max-width:500px){
     footer {
         align-items: center;
         margin: 0;
         flex-direction: column;
         gap: 0px;
         & .LinkPie {
-            margin: 5%;
+            margin: 3% 3% 0 3%;
             align-items: center;
+            width: 90%;
+            height: auto;
         }
         & .NewsLetter {
             margin: 5%;
         }
     } 
 
-    .contacto3:nth-child(2){
-        margin-right: 40px;
+    .LinkPie{
+        justify-content: center;
     }
+
+    .LinkPie img{
+        width: 15%;
+        height: auto;
+        margin-right: 15%;
+        & p{
+            margin: auto;
+        }
+    }
+
+    .contacto3{
+        width: 100%;
+        align-items: center;
+        & p{
+            font-size: 18px;
+        }
+    }
+
+    
 }

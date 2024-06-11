@@ -1,79 +1,81 @@
 /* aqui empieza contenido */
-*{
+* {
     order: 1px solid red;
 }
 
 /* aqui empieza el video y acerca de nosotros */
 
-.tabla{   
+.tabla {
     display: flex;
     justify-content: space-around;
 }
 
-table{    
-    border-spacing: 100px 0px;        
+table {
+    border-spacing: 100px 0px;
 }
 
 td {
-    width: 50%;  
+    width: 50%;
     text-align: center;
 }
 
-iframe{
+iframe {
     border-radius: 10px;
     width: 100%;
     height: 300px;
     align-self: center;
 }
 
-.acerca{
+.acerca {
     height: 280px;
-    width: 100%;  
+    width: 100%;
     display: block;
     overflow: scroll;
     padding: 15px;
     text-align: justify;
     justify-content: center;
-    border-radius: 10px ;
+    border-radius: 10px;
     border: 1px solid gray;
     line-height: 1.5;
-    & span{
+
+    & span {
         font-weight: 700;
         font-size: 30px;
-        color: #fbaf32;        
-        }
+        color: #fbaf32;
+    }
 }
 
 /* aqui empieza la media a 700px */
 
-@media (max-width:700px){
+@media (max-width:700px) {
+
     /* aqui empieza el contenido */
-    .comidas{
+    .comidas {
         flex-direction: column;
         align-items: center;
-        gap: 30px;   
+        gap: 30px;
     }
 
-/* aqui empieza el video y acerca de nosotros */
+    /* aqui empieza el video y acerca de nosotros */
 
-    table{
+    table {
         margin-bottom: 5%;
         align-items: center;
     }
 
-    tr{
+    tr {
         display: flex;
         flex-direction: column;
         gap: 40px;
         align-items: center;
-        
+
     }
 
     td {
         position: relative;
-    overflow: hidden;
-    padding-top: 76.25%;
-    padding-left: 50%;
+        overflow: hidden;
+        padding-top: 76.25%;
+        padding-left: 50%;
     }
 
     iframe {
@@ -83,19 +85,31 @@ iframe{
         width: 100%;
         height: 100%;
         border: 0;
-        
+
     }
-    
-    .acerca{
+
+    .acerca {
         width: 95%;
         text-align: center;
-        & p{
+
+        & p {
             text-align: justify;
             margin-top: 3%;
         }
     }
 
-    *{
+    * {
         order: 1px solid red;
     }
+}
+
+@media (max-width:500px) {
+    td {
+        width: 80%;
     }
+
+    .acerca {
+        width: 120%;
+    }
+
+}

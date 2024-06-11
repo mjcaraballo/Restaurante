@@ -252,7 +252,7 @@ button {
     }
 }
 
-@media (max-width:460px){
+@media (max-width:500px){
     .TituloNovedades{
         font-size: 20px;
         text-align: center;

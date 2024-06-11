@@ -385,6 +385,10 @@ footer {
         margin: 2% 20% 6%;
     }
 
+    .BotonRestaurante{
+        padding: 6px 12px;
+    }
+
     footer {
         align-items: center;
         margin: 0;

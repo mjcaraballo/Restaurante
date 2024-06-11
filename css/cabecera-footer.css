@@ -381,6 +381,10 @@ footer {
 }
 
 @media (max-width:500px){
+    .titulo p{
+        margin: 2% 20% 6%;
+    }
+
     footer {
         align-items: center;
         margin: 0;

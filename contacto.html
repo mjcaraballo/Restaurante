@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700,900" rel="stylesheet">
     <link rel="stylesheet" href="./css/cabecera-footer.css">
     <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/formulario.css">
     </style>
 </head>
 
@@ -80,7 +81,26 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="form" id="formulario">
-            <form name="formulario" method="post" action="/send/">
+            <h1>Contacto</h1>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required><br><br>
+
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+            <!-- <form name="formulario" method="post" action="/send/">
                 <input type="text" name="Nombre" placeholder="Nombre Completo" required>
                 <br>
                 <input type="email" name="email" placeholder="Email" required>
@@ -91,7 +111,7 @@
                 <br>
                 <textarea name="Descripcion" id="" cols="60" rows="5" placeholder="Mensaje"></textarea>
                 <button class="Submit" type="submit" id="sendMessageButton">Enviar</button>
-            </form>
+            </form> -->
         </div>
     </div>
     <!-- aqui empieza el footer -->

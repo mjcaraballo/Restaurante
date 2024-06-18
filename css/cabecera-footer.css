@@ -86,7 +86,6 @@ a {
 }
 
 .titulo {
-    position: absolute;
     z-index: 3;
     display: flex;
     justify-content: center;
@@ -265,13 +264,18 @@ footer {
 /* aqui empieza la media a 1000px */
 
 @media (max-width:1000px) {
-
     .BentaSergio {
-        color: #fbaf32;
-        font-size: 30px;
-        padding: 15px 25px;
+        font-size: 40px;
     }
 }
+
+@media (max-width:800px) {
+    .BentaSergio {
+        font-size: 30px;
+        align-self: center;
+    }
+}
+
 
 /* aqui empieza la media a 700px */
 
@@ -279,7 +283,7 @@ footer {
     .BentaSergio {
         font-size: 30px;
         padding: 10px;
-        text-align: center;
+        align-self: center;
     }
 
     .navegacion {
@@ -288,7 +292,7 @@ footer {
 
     .button {
         display: inline-block;
-        padding: 17px 30px;
+        padding: 20px 55px;
         color: #0e0d0d;
         font-size: 25px;
         cursor: pointer;
@@ -298,10 +302,10 @@ footer {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 67px;
+        top: 80px;
         right: 0px;
         background-color: #bdcec2a2;
-        padding: 18px;
+        padding: 11px 18px;
     }
 
     .barra {

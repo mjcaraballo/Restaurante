@@ -29,12 +29,13 @@ h3 {
     position: fixed;
     z-index: 999;
     background-color: #bdcec2a2;
+    height: 80px;
 }
 
 .BentaSergio {
     color: #fbaf32;
     font-size: 45px;
-    padding: 15px 60px;
+    padding: 15px 40px;
 }
 
 span {

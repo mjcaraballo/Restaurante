@@ -48,6 +48,7 @@ span {
     margin-right: 60px;
     gap: 30px;
     align-items: center;
+
     & .active {
         color: rgb(29, 114, 47);
         font-weight: 900;
@@ -170,7 +171,7 @@ a {
     cursor: pointer;
 }
 
-.articulos a:hover{
+.articulos a:hover {
     background-color: #fbaf32;
     border-radius: 5px;
     padding: 2%;
@@ -182,55 +183,6 @@ a {
     margin-bottom: 2%;
 }
 
-/* aqui empieza la modal */
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    top: 80px;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-    display: flex;
-    background-color: #ffffffd5;
-    background-size: contain;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-
-    max-width: 600px;
-    max-height: 700px;
-    text-align: center;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-#detailImage {
-    width: 100%;
-    height: 100%;
-    max-height: 500px;
-    object-fit: contain;
-}
-
-/* aqui terminal modal */
 /* aqui empieza el footer */
 
 footer {
@@ -278,6 +230,7 @@ footer {
 
 .IconosRedes {
     text-align: center;
+
     & a img {
         width: 20%;
     }
@@ -362,9 +315,11 @@ footer {
     footer {
         align-items: center;
         margin: 0;
+
         & .LinkPie {
             margin: 5%;
         }
+
         & .NewsLetter {
             margin: 5%;
         }
@@ -376,18 +331,19 @@ footer {
 
     .IconosRedes {
         text-align: center;
+
         & a img {
             width: 20%;
         }
     }
 }
 
-@media (max-width:500px){
-    .titulo p{
+@media (max-width:500px) {
+    .titulo p {
         margin: 2% 20% 6%;
     }
 
-    .BotonRestaurante{
+    .BotonRestaurante {
         padding: 6px 12px;
     }
 
@@ -396,37 +352,41 @@ footer {
         margin: 0;
         flex-direction: column;
         gap: 0px;
+
         & .LinkPie {
             margin: 3% 3% 0 3%;
             align-items: center;
             width: 90%;
             height: auto;
         }
+
         & .NewsLetter {
             margin: 5%;
         }
-    } 
+    }
 
-    .LinkPie{
+    .LinkPie {
         justify-content: center;
     }
 
-    .LinkPie img{
+    .LinkPie img {
         width: 15%;
         height: auto;
         margin-right: 15%;
-        & p{
+
+        & p {
             margin: auto;
         }
     }
 
-    .contacto3{
+    .contacto3 {
         width: 100%;
         align-items: center;
-        & p{
+
+        & p {
             font-size: 18px;
         }
     }
 
-    
+
 }

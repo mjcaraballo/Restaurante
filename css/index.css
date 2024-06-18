@@ -1,10 +1,10 @@
-*{
-order: 1px solid red
+* {
+    order: 1px solid red
 }
 
 /* aqui empieza la imagen principal */
 
-.contenedor{
+.contenedor {
     height: 400px;
     position: relative;
     margin-bottom: 45px;
@@ -20,7 +20,7 @@ order: 1px solid red
 
 /* aqui empiezan las novedades */
 
-.TituloNovedades{
+.TituloNovedades {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -45,7 +45,7 @@ order: 1px solid red
     overflow: auto;
 }
 
-#flechaDerecha {    
+#flechaDerecha {
     float: right;
 }
 
@@ -59,7 +59,7 @@ order: 1px solid red
     margin-top: 40px;
 }
 
-.consultas{
+.consultas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +71,7 @@ order: 1px solid red
     width: 85%;
     padding: 60px 0;
     margin: 15px 0px;
-    background: rgba(0, 0, 0, .04);    
+    background: rgba(0, 0, 0, .04);
 }
 
 .contacto img {
@@ -110,7 +110,7 @@ order: 1px solid red
 }
 
 .mapa {
-    width: 80%;    
+    width: 80%;
 }
 
 .mapa iframe {
@@ -123,8 +123,8 @@ order: 1px solid red
     text-align: center;
     width: 80%;
     height: auto;
-    font-size: 14px;    
-} 
+    font-size: 14px;
+}
 
 .form input {
     margin-bottom: 15px;
@@ -149,17 +149,17 @@ button {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color:rgb(29, 114, 47);
+    color: rgb(29, 114, 47);
     background: #fbaf32;
     border: 2px solid #fbaf32;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
 
 /* aqui empieza la media a 700px */
 
-@media (max-width:700px){    
-    .contenedor{
+@media (max-width:700px) {
+    .contenedor {
         height: 120PX;
         position: relative;
         margin-bottom: 45px;
@@ -173,57 +173,58 @@ button {
         justify-content: center;
     }
 
-    .titulo h1{        
+    .titulo h1 {
         font-size: 40px;
     }
-    
-    .titulo h1{
+
+    .titulo h1 {
         font-size: 200%;
     }
-    
-    .titulo p{
+
+    .titulo p {
         font-size: 100%;
     }
-    
+
     /* aqui empieza contenido */
 
-    .comidas{
+    .comidas {
         flex-direction: column;
         align-items: center;
-        gap: 30px;   
+        gap: 30px;
     }
-        
+
     /* aqui empieza contactos */
 
-    .TituloContacto h2{
+    .TituloContacto h2 {
         font-size: 200%;
     }
 
-    .contacto{
+    .contacto {
         display: flex;
         flex-direction: column;
-        justify-content: center;       
+        justify-content: center;
         text-align: center;
         padding: 10px;
         width: 85%;
-        & img{
+
+        & img {
             width: 20%;
             height: auto;
             align-self: center;
         }
     }
 
-    .contacto2{
+    .contacto2 {
         margin: 3%;
         width: 60%;
         align-self: center;
     }
 
-    .direccion img{
-            width: 15%;
-    }   
+    .direccion img {
+        width: 15%;
+    }
 
-    .ubicacion{
+    .ubicacion {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -234,38 +235,40 @@ button {
         gap: 30px;
     }
 
-    .mapa{
+    .mapa {
         width: 85%;
-        height: 300px;  
+        height: 300px;
     }
 
-    .form{
+    .form {
         width: 85%;
         text-align: center;
         margin-bottom: 10px;
-        & input{
+
+        & input {
             width: 99%;
         }
-        & textarea{
+
+        & textarea {
             width: 99%;
         }
     }
 }
 
-@media (max-width:500px){
-    .TituloNovedades{
+@media (max-width:500px) {
+    .TituloNovedades {
         font-size: 20px;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
-        
+
     }
 
-    .mapa{
+    .mapa {
         width: 90%;
     }
 
-    .form{
+    .form {
         width: 90%;
     }
 

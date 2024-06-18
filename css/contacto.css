@@ -128,6 +128,7 @@ button {
         text-align: center;
         padding: 10px;
         width: 85%;
+
         & img {
             width: 20%;
             height: auto;
@@ -169,6 +170,7 @@ button {
         & input {
             width: 99%;
         }
+
         & textarea {
             width: 99%;
         }
@@ -179,20 +181,20 @@ button {
     }
 }
 
-@media (max-width:500px){
-    .TituloNovedades{
+@media (max-width:500px) {
+    .TituloNovedades {
         font-size: 20px;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
-        
+
     }
 
-    .mapa{
+    .mapa {
         width: 90%;
     }
 
-    .form{
+    .form {
         width: 90%;
     }
 

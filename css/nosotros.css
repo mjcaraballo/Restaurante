@@ -36,12 +36,14 @@ iframe {
     border-radius: 10px;
     border: 1px solid gray;
     line-height: 1.5;
+
     & span {
         font-weight: 700;
         font-size: 30px;
         color: #fbaf32;
     }
-    & p{
+
+    & p {
         text-align: justify;
     }
 }

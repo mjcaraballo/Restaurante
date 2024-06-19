@@ -35,3 +35,9 @@ flechaIzquierda.addEventListener('click', () => {
   clearInterval(intervalo);
   cambiarFondoAnterior();
 });
+
+// Cambiar fondo al hacer clic en flecha izquierda
+flechaIzquierda.addEventListener('click', () => {
+  clearInterval(intervalo);
+  cambiarFondoAnterior();
+});
